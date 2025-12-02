@@ -1,0 +1,20 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int i = 1;
+
+        do
+        {
+            if (i % 2 == 0)
+                Console.WriteLine($"{i} adalah angka genap");
+            else
+                Console.WriteLine($"{i} adalah angka ganjil");
+
+            i++;
+        }
+        while (i <= 30);
+    }
+}
